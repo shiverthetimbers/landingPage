@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+    <meta charset='utf-8' />
+    <link rel='stylesheet' href='./styles.css'/>
+    <title>Product Landing Page</title>
+  </head>
+  <body>
+    <header id='header'>
+      <img id='header-img' src='https://i.etsystatic.com/27806359/r/il/45ea14/2900757618/il_794xN.2900757618_4r6k.jpg' />
+      <nav id='nav-bar'>
+        <ul>
+          <li><a class='nav-link' href='#form'>Contact Us</a></li>
+          <li><a class='nav-link' href='#course-details'>Course Details</a></li>
+          <li><a class='nav-link' href='#pricing'>Pricing</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class='form'>
+        <hr />
+        <h3>Start a conversation with us.</h3>
+        <form id='form' action='https://www.freecodecamp.com/email-submit'>
+          <div class='input 1'>
+            <label for='email'>Email: </label>
+            <input name='email' id='email' type='email'  placeholder='yourEmail@domain.com' required />
+          </div>
+          <div class='input 2'>
+            <label for='subject'>What class are you interested in? </label>
+            <select name='subject' id='subject'>
+              <option value=''>--Select your subject of interest--</option>
+              <option value='Basic Pistol'>Basic Pistol</option>
+              <option value='Intermediate Pistol'>Intermediate Pistol</option>
+              <option value='Advanced Pistol'>Advanced Pistol</option>
+              <option value='Basic Rifle'>Basic Rifle</option>
+              <option value='Static Rifle'>Static Rifle</option>
+              <option value='Dynamic Rifle'>Dynamic Rifle</option>
+            </select>
+          </div>
+          <div class='input submit'>
+            <input id='submit' type='submit' value='Send It' />
+          </div>
+        </form>
+        <hr />
+      </section>
+      <section class='course-details' id='course-details'>
+        <div class='course 1'>
+          <h3>Basic Pistol</h3>
+          <p class='details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet. Purus non enim praesent elementum.</p>
+        </div>
+        <div class='course 2'>
+          <h3>Intermediate Pistol</h3>
+          <p class='details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Purus non enim praesent elementum.</p>
+        </div>
+        <div class='course 3'>
+          <h3>Advanced Pistol</h3>
+          <p class='details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet. Purus non enim praesent elementum.</p>
+        </div>
+        <div class='course 4'>
+          <h3>Basic Rifle</h3>
+          <p class='details'>Lorem ipsum dolor sit amet, consectetur  elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet. Purus enim praesent elementum.</p>
+        </div>
+        <div class='course 5'>
+          <h3>Static Rifle</h3>
+          <p class='details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent  magna sit amet. Purus non enim praesent elementum.</p>
+        </div>
+        <div class='course 6'>
+          <h3>Dynamic Rifle</h3>
+          <p class='details'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod  incididunt ut labore et dolore magna aliqua. Eget aliquet nibh praesent tristique magna sit amet. Purus non enim praesent elementum.</p>
+        </div>
+        <div class='course video'>
+          <iframe id='video' width="560" height="315" src="https://www.youtube.com/embed/gNpZ0kEc7ms?si=7KABTN8SaetFZl0y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+      </section>
+      <section class='pricing' id='pricing'>
+        <div class='price-group'>
+          <h4>Single Shooter</h4>
+          <h5>$200/hr</h5>
+          <p>Just you and me.  You will recieve the most 1-on-1 instruction.</p>
+        </div>
+        <div class='price-group'>
+          <h4>3 Shooters</h4>
+          <h5>$150/hr/person</h5>
+          <p>Bring a couple friends or get the family up to speed.  Get a discounted rate per hour.</p>
+        </div>
+        <div class='price-group'>
+          <h4>5+ Shooters</h4>
+          <h5>$100/hr/person</h5>
+          <p>Bring your team. Practice and refine SOPs. We will work communication and tactics into the intermediate and advanced classes at this group size.</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
+
+
+
